@@ -16,7 +16,7 @@ public class Controller {
     @PostMapping("/{name}")
     public String postwish(@PathVariable String name)
     {
-        return "Hey "+name +"details saved and they are shit!";
+        return "Hey "+name +"details saved and they are shit and i making way more shit!";
 
     }
 }
