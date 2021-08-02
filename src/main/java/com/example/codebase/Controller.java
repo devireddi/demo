@@ -10,13 +10,13 @@ public class Controller {
     @GetMapping("/{name}")
     public String getwish(@PathVariable String name)
     {
-        return "Hey "+name +" !!!!";
+        return "Hey "+name +" !!";
 
     }
     @PostMapping("/{name}")
     public String postwish(@PathVariable String name)
     {
-        return "Hey "+name +"details saved !!!!";
+        return "Hey "+name +"details saved !";
 
     }
 }
